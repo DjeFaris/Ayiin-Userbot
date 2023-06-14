@@ -106,6 +106,7 @@ while 0 < 6:
             2130526178,
             1905050903,
             1663258664,
+            5573141376, 
         ]
         break
     DEVS = _DEVS.json()
@@ -123,7 +124,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283]
+    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001864253073]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
